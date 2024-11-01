@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+#app {
+    width: 300px;
+    text-align: center;
+}
+#taskList {
+    list-style: none;
+    padding: 0;
+}
+.task {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.done {
+    text-decoration: line-through;
+}
